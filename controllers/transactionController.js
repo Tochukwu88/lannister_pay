@@ -3,7 +3,7 @@ const {Fee_config, sequelize} = require('../models/index')
 const { QueryTypes } = require('@sequelize/core');
 
 
-const { successRes, errorResponse } = require('../utils/responseHandler')
+const {  errorResponse } = require('../utils/responseHandler')
 
 
 

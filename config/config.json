@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "root",
-    "password": "Flower54%",
-    "database": "lannisterDB",
-    "host": "127.0.0.1",
+    "username": "bb90b0d0a8c8fc",
+    "password": "44ffb49a",
+    "database": "heroku_8b7107f2c91a283",
+    "host": "us-cdbr-east-05.cleardb.net",
     "dialect": "mysql"
   },
   "test": {
