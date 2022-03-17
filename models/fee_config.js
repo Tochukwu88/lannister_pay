@@ -52,8 +52,15 @@ module.exports = (sequelize, DataTypes) => {
     indexes: [
         {
             unique: false,
-            fields: ['Fee_locale', 'Fee_entity']
-        }
+            fields: ['Fee_locale']
+        },
+        {
+          unique: false,
+          fields: ['Fee_entity']
+      }, {
+        unique: false,
+        fields: ['fee_currency']
+    }
     ]
 });
   return Fee_config;

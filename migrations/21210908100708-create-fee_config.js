@@ -43,8 +43,9 @@ module.exports = {
         type: DataTypes.DATE
       }
     });
-    await queryInterface.addIndex('Fee_configs', ['Fee_locale', 'Fee_entity']);
-
+    await queryInterface.addIndex('Fee_configs', ['Fee_locale']);
+    await queryInterface.addIndex('Fee_configs', [ 'Fee_entity']);
+    await queryInterface.addIndex('Fee_configs', ['fee_currency']);
   },
   down: async (queryInterface, DataTypes) => {
     await queryInterface.dropTable('Fee_configs');
