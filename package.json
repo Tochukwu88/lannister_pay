@@ -1,0 +1,26 @@
+{
+  "name": "engineer-test",
+  "version": "1.0.0",
+  "description": " transaction fee processing service",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "migrate": "npx sequelize-cli db:migrate"
+  
+  },
+  "author": "tochukwu okeke",
+  "license": "ISC",
+  "dependencies": {
+    "@sequelize/core": "^7.0.0-alpha.10",
+    "content-type": "^1.0.4",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.3.0",
+    "nodemon": "^2.0.12",
+    "sequelize": "^6.6.5"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.2.0"
+  }
+}
