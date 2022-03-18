@@ -1,23 +1,23 @@
 {
   "development": {
-    "username": "bb90b0d0a8c8fc",
-    "password": "44ffb49a",
-    "database": "heroku_8b7107f2c91a283",
-    "host": "us-cdbr-east-05.cleardb.net",
+    "username": "",
+    "password": "",
+    "database": "",
+    "host": "",
     "dialect": "mysql"
   },
   "test": {
     "username": "root",
     "password": "",
-    "database": "lendsqrDB",
+    "database": "",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
   "production": {
-    "username": "bb90b0d0a8c8fc",
-    "password": "44ffb49a",
-    "database": "heroku_8b7107f2c91a283",
-    "host": "us-cdbr-east-05.cleardb.net",
+    "username": "",
+    "password": "",
+    "database": "",
+    "host": "",
     "dialect": "mysql"
   }
 }
